@@ -1,0 +1,16 @@
+.ul {
+  margin: 0;
+  padding: 0;
+}
+
+.li {
+  display: flex;
+  justify-content: center;
+  /* background: #000; */
+  list-style-type: none;
+  margin-bottom: 100px;
+}
+
+.li:last-child {
+  margin-bottom: 0;
+}
