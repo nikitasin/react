@@ -1,34 +1,37 @@
-.movie {
-  height: 75px;
-  display: flex;
-  position: relative;
-  margin: 10px 0 10px 0;
-  background: rgb(255, 252, 252);
+.container {
+ padding: 0;
 }
 
-.img {
+.card {
+  list-style-type: none;
+  display: flex;
+  height: 75px;
+  position: relative;
+  background: #ffffff;
+  padding: 0 10px 0 0;
+ }
+.watchlist-h1{
+  margin: 0 0 26px;
+}
+
+.card>img {
   width: 50px;
   height: 75px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .title {
   margin: 0;
   font-size: 13px;
 }
-.release{
+.text{
   margin: 2px 0 0 0;
   font-size: 11px;
 }
-
-.button{
-  border: none;
-  background: rgb(252, 252, 255);
-}
-.btnblock{
+.btnb{
   display: flex;
   justify-content: space-around;
   position: absolute;
   right: 0;
   bottom: 0;
+  width: 60px;
 }
-

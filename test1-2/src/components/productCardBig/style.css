@@ -1,0 +1,32 @@
+.card{
+    width: 498px;
+    height: 245px;
+    /* background: url(../images/products/photo1.jpg) center / cover; */
+    margin: auto;
+    position: relative;
+}
+.img{
+    /* position: relative; */
+    width: 498px;
+    height: 245px;
+}
+.h3{
+    padding-left: 140px;
+    font-family: Lato, sans-serif;;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #002258;
+}
+.CardActions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 51px;
+    font-family: Lato, sans-serif;;
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+}

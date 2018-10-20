@@ -1,0 +1,32 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    padding: 0 140px 0 140px;
+    /* width: 78%; */
+}
+.slide{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+.info_block{
+    width: 93%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    position: absolute;
+    top: 149px;
+    padding-left: 75px;
+}
+.info_big{
+    font-family: Lato, sans-serif ;;
+    font-weight: 50;
+    font-size: 36px;
+}
+.info_small{
+    font-family: Lato, sans-serif, Regular;;
+    font-size: 13px;
+}
+/* .slide_img{
+    margin: 0 35px 0 35px;
+} */
